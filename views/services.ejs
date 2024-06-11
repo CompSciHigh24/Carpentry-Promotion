@@ -1,0 +1,18 @@
+<head>
+  
+</head>
+
+<body>
+<%for(let i=0; i<10; i++)%>
+  <%=owner%>
+<%}%
+<%for(let i=0; i<services.length; i++)%>
+  <h2><%=services[i].name%></h2>
+<%}%
+  <%for(let i=0; i<services.length; i++)%>
+    <p><%=services[i].description%></p>
+  <%}%
+    <%for(let i=0; i<services.length; i++)%>
+      <p><%=services[i].cost%></p>
+    <%}%
+</body>
